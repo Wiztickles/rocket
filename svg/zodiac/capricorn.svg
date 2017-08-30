@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="-241.7 53.2 206 206" style="enable-background:new -241.7 53.2 206 206;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#1F140F;stroke:#FFFFFF;stroke-width:2;stroke-miterlimit:10;}
+	.st1{fill:#EE2724;}
+	.st2{fill:none;stroke:#FFFFFF;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+</style>
+<g>
+	<circle cx="-138.7" cy="156.2" r="94"/>
+	<circle class="st0" cx="-138.7" cy="156.2" r="102"/>
+	<g>
+		<g id="circle">
+			<circle class="st1" cx="-86.3" cy="106.7" r="4.4"/>
+			<circle class="st1" cx="-75.7" cy="127.6" r="1.1"/>
+			<circle class="st1" cx="-138.4" cy="199.2" r="1.1"/>
+			<g>
+				<circle class="st1" cx="-165.6" cy="104.1" r="2.8"/>
+				<circle class="st1" cx="-174.8" cy="98.2" r="1.3"/>
+			</g>
+			<circle class="st1" cx="-178.6" cy="117.3" r="3.9"/>
+			<circle class="st1" cx="-139" cy="150.4" r="4"/>
+			<circle class="st1" cx="-112.7" cy="153.5" r="2.1"/>
+			<circle class="st1" cx="-99.4" cy="176.7" r="3.4"/>
+			<circle class="st1" cx="-129.4" cy="211.9" r="3.5"/>
+			<circle class="st1" cx="-127.5" cy="133.5" r="3.6"/>
+			<circle class="st1" cx="-99.7" cy="123.2" r="2"/>
+			<circle class="st1" cx="-120.3" cy="119.3" r="1.6"/>
+		</g>
+		<g id="line">
+			<line class="st2" x1="-189.8" y1="142.6" x2="-182" y2="122.8"/>
+			<line class="st2" x1="-174.2" y1="121.5" x2="-165.9" y2="187.2"/>
+			<line class="st2" x1="-159.6" y1="192.1" x2="-141.9" y2="156.7"/>
+			<line class="st2" x1="-132.2" y1="150.7" x2="-116.9" y2="152.8"/>
+			<line class="st2" x1="-110.3" y1="156.4" x2="-101.2" y2="171"/>
+			<line class="st2" x1="-99.1" y1="182.2" x2="-101.5" y2="198.1"/>
+			<line class="st2" x1="-123.4" y1="210.9" x2="-108" y2="204.9"/>
+			<line class="st2" x1="-115.8" y1="148.6" x2="-124.7" y2="137.6"/>
+			<line class="st2" x1="-107" y1="152.2" x2="-95.8" y2="144.7"/>
+			<line class="st2" x1="-98.6" y1="126.8" x2="-95.8" y2="137.7"/>
+			<line class="st2" x1="-117" y1="119.3" x2="-103" y2="121.8"/>
+			<line class="st2" x1="-127.5" y1="128.2" x2="-122.9" y2="122.1"/>
+		</g>
+		<g id="star">
+			<polygon class="st1" points="-187.5,150.7 -182.6,143.4 -190.9,144.9 -195.3,136.6 -196.9,146.8 -206,148.9 -197.7,152 
+				-197.1,163.2 -190.4,155.1 -182.8,157.5 			"/>
+			<polygon class="st1" points="-163.5,193.8 -160.6,187.7 -166.7,190.8 -171,186.7 -169.4,192.2 -174.8,195 -168.2,196.2 
+				-166.9,200.9 -164.9,196.8 -159.3,197.9 			"/>
+			<polygon class="st1" points="-101.3,202.6 -99.1,199.7 -102.7,200.4 -105.4,196 -105.4,201 -109,201.8 -105.4,203.2 -105.4,208 
+				-102.6,204.4 -99.4,205.7 			"/>
+			<polygon class="st1" points="-90.9,144.2 -86.6,146 -89.7,142.1 -87.4,138.2 -92,139.3 -94.2,136.6 -93.8,139.8 -98.6,141 
+				-93.4,143.2 -93.4,147.6 			"/>
+			<polygon class="st1" points="-74.3,181.6 -71.4,181.4 -73.9,179.9 -73.3,177.5 -75.1,179.1 -77.2,177.8 -76.4,180.2 -78.4,181.9 
+				-75.9,181.7 -75.1,184.5 			"/>
+		</g>
+	</g>
+</g>
+</svg>

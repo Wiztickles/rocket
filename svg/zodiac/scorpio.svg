@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="-319.7 59.7 206 206" style="enable-background:new -319.7 59.7 206 206;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#1F140F;stroke:#FFFFFF;stroke-width:2;stroke-miterlimit:10;}
+	.st1{fill:#EE2724;}
+	.st2{fill:none;stroke:#FFFFFF;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+</style>
+<g>
+	<circle cx="-216.7" cy="162.7" r="94"/>
+	<circle class="st0" cx="-216.7" cy="162.7" r="102"/>
+	<g>
+		<g id="star">
+			<polygon class="st1" points="-260.3,113.8 -254.9,113.4 -259.5,110.5 -258.3,106.1 -261.8,109.1 -265.6,106.6 -264.2,111.1 
+				-268,114.4 -263.3,114 -261.7,119.2 			"/>
+			<polygon class="st1" points="-162.8,218.4 -150.7,213.8 -162.4,209.5 -161.9,199.3 -167.1,207.7 -174.2,205.1 -170.2,212.6 
+				-177.2,223.8 -166.4,219.7 -163.1,225.8 			"/>
+			<polygon class="st1" points="-219.9,133.3 -215.7,131.4 -220.7,130.2 -221.8,125.6 -223.7,129.5 -228,128.4 -224.8,131.8 
+				-227.1,136.7 -222.2,134.4 -218.7,138 			"/>
+			<polygon class="st1" points="-233.5,117.3 -230.5,117.5 -232.5,115.3 -230.9,112.1 -233.9,113.9 -236.5,111.2 -235.9,115.2 
+				-238.8,116.9 -235.6,117.1 -235.1,120.5 			"/>
+			<polygon class="st1" points="-250.5,201.1 -247.4,196.7 -252.5,197.8 -255.5,192.8 -255.6,198.5 -261.1,199.8 -255.7,201.8 
+				-255.9,208.7 -252,203.2 -248.5,204.5 			"/>
+			<polygon class="st1" points="-267.4,211.6 -265.8,211.9 -266.9,210.8 -266,208.8 -268.2,209.6 -270.2,207.7 -269.6,210.1 
+				-272.1,210.9 -269.4,211.3 -268.7,214.4 			"/>
+		</g>
+		<g id="circle">
+			<path class="st1" d="M-270.3,131.4c0,0.7-0.6,1.3-1.3,1.3c-0.7,0-1.3-0.6-1.3-1.3s0.6-1.3,1.3-1.3
+				C-270.8,130.1-270.3,130.7-270.3,131.4z"/>
+			<path class="st1" d="M-196.3,98.6c0,1.3-1,2.3-2.3,2.3s-2.3-1-2.3-2.3s1-2.3,2.3-2.3S-196.3,97.4-196.3,98.6z"/>
+			<circle class="st1" cx="-173.4" cy="158" r="3.1"/>
+			<circle class="st1" cx="-180.9" cy="150.5" r="1.1"/>
+			<circle class="st1" cx="-216.2" cy="228.2" r="1.7"/>
+			<circle class="st1" cx="-180.6" cy="95" r="1.1"/>
+			<circle class="st1" cx="-169.7" cy="116" r="2.2"/>
+			<circle class="st1" cx="-267.2" cy="145.1" r="2.9"/>
+			<circle class="st1" cx="-197.8" cy="205.8" r="2.9"/>
+			<circle class="st1" cx="-195.4" cy="129.8" r="1.9"/>
+			<circle class="st1" cx="-206.9" cy="117.5" r="1.3"/>
+			<circle class="st1" cx="-224.3" cy="196.6" r="3"/>
+			<circle class="st1" cx="-254" cy="214.3" r="1.1"/>
+			<circle class="st1" cx="-250" cy="130.9" r="2.4"/>
+		</g>
+		<g id="line">
+			<line class="st2" x1="-193.2" y1="208.5" x2="-173.2" y2="213.4"/>
+			<line class="st2" x1="-195.6" y1="134.4" x2="-197.5" y2="200.5"/>
+			<line class="st2" x1="-204" y1="119.6" x2="-197.7" y2="125.2"/>
+			<line class="st2" x1="-209.8" y1="120" x2="-219" y2="128.2"/>
+			<line class="st2" x1="-223" y1="137" x2="-224.1" y2="191.4"/>
+			<line class="st2" x1="-232.9" y1="118.6" x2="-225.6" y2="127.1"/>
+			<line class="st2" x1="-252.2" y1="194.7" x2="-250.7" y2="135.2"/>
+			<line class="st2" x1="-258.7" y1="116.1" x2="-252.8" y2="126.6"/>
+			<line class="st2" x1="-246.9" y1="127.5" x2="-238.2" y2="119"/>
+		</g>
+	</g>
+</g>
+</svg>

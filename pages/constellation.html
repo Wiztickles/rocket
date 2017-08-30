@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Rocket | Constellation</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="../svg/favicon.png" type="image/x-icon" />
+	<link rel="stylesheet" href="../bootstrap-3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet">
+	<link rel="stylesheet" href="../css/flexy.css">
+	<link rel="stylesheet" href="../css/main.css">
+	<script src="../js/jquery.min.js"></script>
+	<script src="../js/TimelineMax.min.js"></script>
+	<script src="../js/TweenMax.min.js"></script>
+	<script src="../bootstrap-3.3.7/js/bootstrap.min.js"></script>
+	<script src="../js/main.js"></script>
+	<script src="../js/zodiac.js"></script>
+</head>
+<body>
+	<div class="container"> 
+		<nav class="navbar navbar-default navbar-fixed-top">
+		   	<div class="container">
+		    	<div class="navbar-header">
+		       		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+		         	<span class="sr-only">Toggle navigation</span>
+		         	<span class="icon-bar"></span>
+		         	<span class="icon-bar"></span>
+		         	<span class="icon-bar"></span>
+		       		</button>
+		       		<div class="navbar-brand header_logo">
+		       			<a class="" href="../index.html"><img src="../svg/Logo.svg" alt=""></a>
+		       		</div>
+		     	</div>
+		     	<div id="navbar" class="navbar-collapse collapse">
+		     		<ul class="nav navbar-nav navbar-right">
+		                <li><a href="../index.html">Home <i class="fa fa-home" aria-hidden="true"></i></a></li>
+		                <li><a href="planets.html">Planets <i class="fa fa-globe" aria-hidden="true"></i></a></li>
+		                <li class="active"><a href="constellation.html">Constellation <i class="fa fa-star" aria-hidden="true"></i></a></li>
+		                <li><a href="sun.html">Sun <i class="fa fa-sun-o" aria-hidden="true"></i></a></li>
+		                <li><a href="moon.html">Moon <i class="fa fa-moon-o" aria-hidden="true"></i></a></li>
+		            </ul>
+		    	</div><!--/.nav-collapse -->
+		   </div>
+		</nav>
+		<div class="content">
+			<div class="row outline effect5">
+				<div class="">
+					<div class="dropdown">
+						<button class="btn btn-secondary dropdown-toggle btn-block" type="button" id="about-us" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							<h1>Zodiac Signs <span class="caret"></span></h1>
+						</button>
+						<ul class="dropdown-menu" aria-labelledby="about-us">
+							<li><a href="#" id="a_dd">Aquaruis</a></li>
+							<li><a href="#" id="b_dd">Pisces</a></li>
+							<li><a href="#" id="c_dd">Aries</a></li>
+							<li><a href="#" id="d_dd">Taurus</a></li>
+							<li><a href="#" id="e_dd">Gemni</a></li>
+							<li><a href="#" id="f_dd">Cancer</a></li>
+							<li><a href="#" id="g_dd">Leo</a></li>
+							<li><a href="#" id="h_dd">Vigro</a></li>
+							<li><a href="#" id="i_dd">Libra</a></li>
+							<li><a href="#" id="j_dd">Scorpio</a></li>
+							<li><a href="#" id="k_dd">Sagittarius</a></li>
+							<li><a href="#" id="l_dd">Capricorn</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-0 col-xs-0 svgs">
+					<object id="svgZodiac" class="img-responsive" onload="onZodiacLoaded()" type="image/svg+xml" data="../svg/zodiac-selector.svg">Your browser does not support SVGs</object>
+				</div>
+			</div>
+
+			<div  class=" row outline effect5">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 svgs" id="planets" >
+					<div id="a_info">
+						<div class="planet row">
+							<div class="col-lg-4 col-md-4 col-sm-8 col-xs-8 svgs">
+								<object id="svgObject" class="img-responsive" onload="onSVGContentLoaded()" type="image/svg+xml" data="../svg/zodiac/aquarius.svg">Your browser does not support SVGs</object>
+								</div>
+							<div class="planet_info col-lg-8 col-md-12 col-sm-12 col-xs-12"> 
+								<h2>Aquaruis</h2>
+								<h3>Mythology</h3>
+								<p>The Greeks linked this constellation with Ganymede, the cup bearer to the gods. According to lore, Ganymede was a good-looking young man who was the object of Zeus' affection and was brought to Mount Olympus, where he served as cup bearer to the gods and was granted eternal youth.</p>
+								<h3>Notable stars and objects</h3>
+								<p>The brightest star in the Aquarius constellation is a rare yellow supergiant known as beta Aquarii, also known as Sadalsuud. It is 600 light-years away and has a magnitude of 2.9, which is low.</p>
+								<p>Zeta Aquarii is at the center of the Y-shaped configuration that forms Aquarius’ water jar. The other stars in the asterism forming the jar are Gamma, Pi and Eta Aquarii. The stream of water consists of more than 20 stars, ending with Fomalhaut.</p>
+								<h3>Locating Aquarius</h3>
+								<p>The constellation can be seen in the spring in the Southern Hemisphere and the fall in the Northern Hemisphere.</p>
+								<ul>
+									<li>Right Ascension:  22.71 hours</li>
+									<li>Declination:  -10.19 degrees</li>
+									<li>Visible: Between 65 degrees and -90 degrees</li>
+									<li>Best viewed: During October at 9 p.m.</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div id="b_info" class="hidden">
+						<div class="planet row">
+							<div class="col-lg-4 col-md-4 col-sm-8 col-xs-8 svgs">
+								<object id="svgPisces" class="img-responsive" onload="onPiscesContentLoaded()" type="image/svg+xml" data="../svg/zodiac/pisces.svg">Your browser does not support SVGs</object>
+							</div>
+							<div class="planet_info col-lg-8 col-md-12 col-sm-12 col-xs-12"> 
+								<h2>Pisces</h2>
+								<h3>Mythology</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum illum quod, mollitia quos nulla sapiente, unde velit! Illo quidem magnam amet quas harum qui! Suscipit nam voluptas porro necessitatibus voluptatum!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, deleniti, id earum repellat maxime adipisci omnis nisi, praesentium ex porro atque! Praesentium explicabo placeat laudantium consequatur accusamus aspernatur aperiam excepturi!</p>
+								<h3>Notable stars and objects</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem possimus quos voluptas ipsa vel porro distinctio voluptatem doloremque dolores repellat sint sed hic nisi reprehenderit magnam, non cumque, aliquid harum!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae possimus non iusto magni sapiente officiis laudantium earum perferendis esse expedita dolor, vero rerum beatae maxime necessitatibus temporibus dolores, eveniet deserunt!</p>
+								<p>Zeta Aquarii is at the center of the Y-shaped configuration that forms Aquarius’ water jar. The other stars in the asterism forming the jar are Gamma, Pi and Eta Aquarii. The stream of water consists of more than 20 stars, ending with Fomalhaut.</p>
+								<h3>Locating Pisces</h3>
+								<p>The constellation can be seen in the spring in the Southern Hemisphere and the fall in the Northern Hemisphere.</p>
+								<ul>
+									<li>Right Ascension:  22.71 hours</li>
+									<li>Declination:  -10.19 degrees</li>
+									<li>Visible: Between 65 degrees and -90 degrees</li>
+									<li>Best viewed: During October at 9 p.m.</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div id="c_info" class="hidden">
+						<div class="planet row">
+							<div class="col-lg-4 col-md-4 col-sm-8 col-xs-8 svgs">
+								<object id="svgAries" class="img-responsive" onload="onAriesContentLoaded()" type="image/svg+xml" data="../svg/zodiac/aries.svg">Your browser does not support SVGs</object>
+							</div>
+							<div class="planet_info col-lg-8 col-md-12 col-sm-12 col-xs-12"> 
+								<h2>Aries</h2>
+								<h3>Mythology</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum illum quod, mollitia quos nulla sapiente, unde velit! Illo quidem magnam amet quas harum qui! Suscipit nam voluptas porro necessitatibus voluptatum!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, deleniti, id earum repellat maxime adipisci omnis nisi, praesentium ex porro atque! Praesentium explicabo placeat laudantium consequatur accusamus aspernatur aperiam excepturi!</p>
+								<h3>Notable stars and objects</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem possimus quos voluptas ipsa vel porro distinctio voluptatem doloremque dolores repellat sint sed hic nisi reprehenderit magnam, non cumque, aliquid harum!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae possimus non iusto magni sapiente officiis laudantium earum perferendis esse expedita dolor, vero rerum beatae maxime necessitatibus temporibus dolores, eveniet deserunt!</p>
+								<p>Zeta Aquarii is at the center of the Y-shaped configuration that forms Aquarius’ water jar. The other stars in the asterism forming the jar are Gamma, Pi and Eta Aquarii. The stream of water consists of more than 20 stars, ending with Fomalhaut.</p>
+								<h3>Locating Aries</h3>
+								<p>The constellation can be seen in the spring in the Southern Hemisphere and the fall in the Northern Hemisphere.</p>
+								<ul>
+									<li>Right Ascension:  22.71 hours</li>
+									<li>Declination:  -10.19 degrees</li>
+									<li>Visible: Between 65 degrees and -90 degrees</li>
+									<li>Best viewed: During October at 9 p.m.</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div id="d_info" class="hidden">
+						<div class="planet row">
+							<div class="col-lg-4 col-md-4 col-sm-8 col-xs-8 svgs">
+								<object id="svgTar" class="img-responsive" onload="onTarContentLoaded()" type="image/svg+xml" data="../svg/zodiac/taurus.svg">Your browser does not support SVGs</object>
+							</div>
+							<div class="planet_info col-lg-8 col-md-12 col-sm-12 col-xs-12"> 
+								<h2>Taurus</h2>
+								<h3>Mythology</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum illum quod, mollitia quos nulla sapiente, unde velit! Illo quidem magnam amet quas harum qui! Suscipit nam voluptas porro necessitatibus voluptatum!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, deleniti, id earum repellat maxime adipisci omnis nisi, praesentium ex porro atque! Praesentium explicabo placeat laudantium consequatur accusamus aspernatur aperiam excepturi!</p>
+								<h3>Notable stars and objects</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem possimus quos voluptas ipsa vel porro distinctio voluptatem doloremque dolores repellat sint sed hic nisi reprehenderit magnam, non cumque, aliquid harum!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae possimus non iusto magni sapiente officiis laudantium earum perferendis esse expedita dolor, vero rerum beatae maxime necessitatibus temporibus dolores, eveniet deserunt!</p>
+								<p>Zeta Aquarii is at the center of the Y-shaped configuration that forms Aquarius’ water jar. The other stars in the asterism forming the jar are Gamma, Pi and Eta Aquarii. The stream of water consists of more than 20 stars, ending with Fomalhaut.</p>
+								<h3>Locating Taurus</h3>
+								<p>The constellation can be seen in the spring in the Southern Hemisphere and the fall in the Northern Hemisphere.</p>
+								<ul>
+									<li>Right Ascension:  22.71 hours</li>
+									<li>Declination:  -10.19 degrees</li>
+									<li>Visible: Between 65 degrees and -90 degrees</li>
+									<li>Best viewed: During October at 9 p.m.</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div id="e_info" class="hidden">
+						<div class="planet row">
+							<div class="col-lg-4 col-md-4 col-sm-8 col-xs-8 svgs">
+								<object id="svgGemni" class="img-responsive" onload="onGemniContentLoaded()" type="image/svg+xml" data="../svg/zodiac/gemni.svg">Your browser does not support SVGs</object>
+							</div>
+							<div class="planet_info col-lg-8 col-md-12 col-sm-12 col-xs-12"> 
+								<h2>Gemni</h2>
+								<h3>Mythology</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum illum quod, mollitia quos nulla sapiente, unde velit! Illo quidem magnam amet quas harum qui! Suscipit nam voluptas porro necessitatibus voluptatum!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, deleniti, id earum repellat maxime adipisci omnis nisi, praesentium ex porro atque! Praesentium explicabo placeat laudantium consequatur accusamus aspernatur aperiam excepturi!</p>
+								<h3>Notable stars and objects</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem possimus quos voluptas ipsa vel porro distinctio voluptatem doloremque dolores repellat sint sed hic nisi reprehenderit magnam, non cumque, aliquid harum!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae possimus non iusto magni sapiente officiis laudantium earum perferendis esse expedita dolor, vero rerum beatae maxime necessitatibus temporibus dolores, eveniet deserunt!</p>
+								<p>Zeta Aquarii is at the center of the Y-shaped configuration that forms Aquarius’ water jar. The other stars in the asterism forming the jar are Gamma, Pi and Eta Aquarii. The stream of water consists of more than 20 stars, ending with Fomalhaut.</p>
+								<h3>Locating Gemni</h3>
+								<p>The constellation can be seen in the spring in the Southern Hemisphere and the fall in the Northern Hemisphere.</p>
+								<ul>
+									<li>Right Ascension:  22.71 hours</li>
+									<li>Declination:  -10.19 degrees</li>
+									<li>Visible: Between 65 degrees and -90 degrees</li>
+									<li>Best viewed: During October at 9 p.m.</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div id="f_info" class="hidden">
+						<div class="planet row">
+							<div class="col-lg-4 col-md-4 col-sm-8 col-xs-8 svgs">
+								<object id="svgCancer" class="img-responsive" onload="onCancerContentLoaded()" type="image/svg+xml" data="../svg/zodiac/cancer.svg">Your browser does not support SVGs</object>
+							</div>
+							<div class="planet_info col-lg-8 col-md-12 col-sm-12 col-xs-12"> 
+								<h2>Cancer</h2>
+								<h3>Mythology</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum illum quod, mollitia quos nulla sapiente, unde velit! Illo quidem magnam amet quas harum qui! Suscipit nam voluptas porro necessitatibus voluptatum!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, deleniti, id earum repellat maxime adipisci omnis nisi, praesentium ex porro atque! Praesentium explicabo placeat laudantium consequatur accusamus aspernatur aperiam excepturi!</p>
+								<h3>Notable stars and objects</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem possimus quos voluptas ipsa vel porro distinctio voluptatem doloremque dolores repellat sint sed hic nisi reprehenderit magnam, non cumque, aliquid harum!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae possimus non iusto magni sapiente officiis laudantium earum perferendis esse expedita dolor, vero rerum beatae maxime necessitatibus temporibus dolores, eveniet deserunt!</p>
+								<p>Zeta Aquarii is at the center of the Y-shaped configuration that forms Aquarius’ water jar. The other stars in the asterism forming the jar are Gamma, Pi and Eta Aquarii. The stream of water consists of more than 20 stars, ending with Fomalhaut.</p>
+								<h3>Locating Cancer</h3>
+								<p>The constellation can be seen in the spring in the Southern Hemisphere and the fall in the Northern Hemisphere.</p>
+								<ul>
+									<li>Right Ascension:  22.71 hours</li>
+									<li>Declination:  -10.19 degrees</li>
+									<li>Visible: Between 65 degrees and -90 degrees</li>
+									<li>Best viewed: During October at 9 p.m.</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div id="g_info" class="hidden">
+						<div class="planet row">
+							<div class="col-lg-4 col-md-4 col-sm-8 col-xs-8 svgs">
+								<object id="svgLeo" class="img-responsive" onload="onLeoContentLoaded()" type="image/svg+xml" data="../svg/zodiac/leo.svg">Your browser does not support SVGs</object>
+							</div>
+							<div class="planet_info col-lg-8 col-md-12 col-sm-12 col-xs-12"> 
+								<h2>Leo</h2>
+								<h3>Mythology</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum illum quod, mollitia quos nulla sapiente, unde velit! Illo quidem magnam amet quas harum qui! Suscipit nam voluptas porro necessitatibus voluptatum!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, deleniti, id earum repellat maxime adipisci omnis nisi, praesentium ex porro atque! Praesentium explicabo placeat laudantium consequatur accusamus aspernatur aperiam excepturi!</p>
+								<h3>Notable stars and objects</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem possimus quos voluptas ipsa vel porro distinctio voluptatem doloremque dolores repellat sint sed hic nisi reprehenderit magnam, non cumque, aliquid harum!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae possimus non iusto magni sapiente officiis laudantium earum perferendis esse expedita dolor, vero rerum beatae maxime necessitatibus temporibus dolores, eveniet deserunt!</p>
+								<p>Zeta Aquarii is at the center of the Y-shaped configuration that forms Aquarius’ water jar. The other stars in the asterism forming the jar are Gamma, Pi and Eta Aquarii. The stream of water consists of more than 20 stars, ending with Fomalhaut.</p>
+								<h3>Locating Leo</h3>
+								<p>The constellation can be seen in the spring in the Southern Hemisphere and the fall in the Northern Hemisphere.</p>
+								<ul>
+									<li>Right Ascension:  22.71 hours</li>
+									<li>Declination:  -10.19 degrees</li>
+									<li>Visible: Between 65 degrees and -90 degrees</li>
+									<li>Best viewed: During October at 9 p.m.</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div id="h_info" class="hidden">
+						<div class="planet row">
+							<div class="col-lg-4 col-md-4 col-sm-8 col-xs-8 svgs">
+								<object id="svgVig" class="img-responsive" onload="onVigContentLoaded()" type="image/svg+xml" data="../svg/zodiac/virgo.svg">Your browser does not support SVGs</object>
+							</div>
+							<div class="planet_info col-lg-8 col-md-12 col-sm-12 col-xs-12"> 
+								<h2>Virgo</h2>
+								<h3>Mythology</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum illum quod, mollitia quos nulla sapiente, unde velit! Illo quidem magnam amet quas harum qui! Suscipit nam voluptas porro necessitatibus voluptatum!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, deleniti, id earum repellat maxime adipisci omnis nisi, praesentium ex porro atque! Praesentium explicabo placeat laudantium consequatur accusamus aspernatur aperiam excepturi!</p>
+								<h3>Notable stars and objects</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem possimus quos voluptas ipsa vel porro distinctio voluptatem doloremque dolores repellat sint sed hic nisi reprehenderit magnam, non cumque, aliquid harum!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae possimus non iusto magni sapiente officiis laudantium earum perferendis esse expedita dolor, vero rerum beatae maxime necessitatibus temporibus dolores, eveniet deserunt!</p>
+								<p>Zeta Aquarii is at the center of the Y-shaped configuration that forms Aquarius’ water jar. The other stars in the asterism forming the jar are Gamma, Pi and Eta Aquarii. The stream of water consists of more than 20 stars, ending with Fomalhaut.</p>
+								<h3>Locating Virgo</h3>
+								<p>The constellation can be seen in the spring in the Southern Hemisphere and the fall in the Northern Hemisphere.</p>
+								<ul>
+									<li>Right Ascension:  22.71 hours</li>
+									<li>Declination:  -10.19 degrees</li>
+									<li>Visible: Between 65 degrees and -90 degrees</li>
+									<li>Best viewed: During October at 9 p.m.</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div id="i_info" class="hidden">
+						<div class="planet row">
+							<div class="col-lg-4 col-md-4 col-sm-8 col-xs-8 svgs">
+								<object id="svgLibra" class="img-responsive" onload="onLibraContentLoaded()" type="image/svg+xml" data="../svg/zodiac/libra.svg">Your browser does not support SVGs</object>
+							</div>
+							<div class="planet_info col-lg-8 col-md-12 col-sm-12 col-xs-12"> 
+								<h2>Libra</h2>
+								<h3>Mythology</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum illum quod, mollitia quos nulla sapiente, unde velit! Illo quidem magnam amet quas harum qui! Suscipit nam voluptas porro necessitatibus voluptatum!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, deleniti, id earum repellat maxime adipisci omnis nisi, praesentium ex porro atque! Praesentium explicabo placeat laudantium consequatur accusamus aspernatur aperiam excepturi!</p>
+								<h3>Notable stars and objects</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem possimus quos voluptas ipsa vel porro distinctio voluptatem doloremque dolores repellat sint sed hic nisi reprehenderit magnam, non cumque, aliquid harum!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae possimus non iusto magni sapiente officiis laudantium earum perferendis esse expedita dolor, vero rerum beatae maxime necessitatibus temporibus dolores, eveniet deserunt!</p>
+								<p>Zeta Aquarii is at the center of the Y-shaped configuration that forms Aquarius’ water jar. The other stars in the asterism forming the jar are Gamma, Pi and Eta Aquarii. The stream of water consists of more than 20 stars, ending with Fomalhaut.</p>
+								<h3>Locating Libra</h3>
+								<p>The constellation can be seen in the spring in the Southern Hemisphere and the fall in the Northern Hemisphere.</p>
+								<ul>
+									<li>Right Ascension:  22.71 hours</li>
+									<li>Declination:  -10.19 degrees</li>
+									<li>Visible: Between 65 degrees and -90 degrees</li>
+									<li>Best viewed: During October at 9 p.m.</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div id="j_info" class="hidden">
+						<div class="planet row">
+							<div class="col-lg-4 col-md-4 col-sm-8 col-xs-8 svgs">
+								<object id="svgSco" class="img-responsive" onload="onScoContentLoaded()" type="image/svg+xml" data="../svg/zodiac/scorpio.svg">Your browser does not support SVGs</object>
+							</div>
+							<div class="planet_info col-lg-8 col-md-12 col-sm-12 col-xs-12"> 
+								<h2>Scorpio</h2>
+								<h3>Mythology</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum illum quod, mollitia quos nulla sapiente, unde velit! Illo quidem magnam amet quas harum qui! Suscipit nam voluptas porro necessitatibus voluptatum!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, deleniti, id earum repellat maxime adipisci omnis nisi, praesentium ex porro atque! Praesentium explicabo placeat laudantium consequatur accusamus aspernatur aperiam excepturi!</p>
+								<h3>Notable stars and objects</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem possimus quos voluptas ipsa vel porro distinctio voluptatem doloremque dolores repellat sint sed hic nisi reprehenderit magnam, non cumque, aliquid harum!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae possimus non iusto magni sapiente officiis laudantium earum perferendis esse expedita dolor, vero rerum beatae maxime necessitatibus temporibus dolores, eveniet deserunt!</p>
+								<p>Zeta Aquarii is at the center of the Y-shaped configuration that forms Aquarius’ water jar. The other stars in the asterism forming the jar are Gamma, Pi and Eta Aquarii. The stream of water consists of more than 20 stars, ending with Fomalhaut.</p>
+								<h3>Locating Scorpio</h3>
+								<p>The constellation can be seen in the spring in the Southern Hemisphere and the fall in the Northern Hemisphere.</p>
+								<ul>
+									<li>Right Ascension:  22.71 hours</li>
+									<li>Declination:  -10.19 degrees</li>
+									<li>Visible: Between 65 degrees and -90 degrees</li>
+									<li>Best viewed: During October at 9 p.m.</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div id="k_info" class="hidden">
+						<div class="planet row">
+							<div class="col-lg-4 col-md-4 col-sm-8 col-xs-8 svgs">
+								<object id="svgSag" class="img-responsive" onload="onSagContentLoaded()" type="image/svg+xml" data="../svg/zodiac/sagittarius.svg">Your browser does not support SVGs</object>
+							</div>
+							<div class="planet_info col-lg-8 col-md-12 col-sm-12 col-xs-12"> 
+								<h2>Sagittarius</h2>
+								<h3>Mythology</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum illum quod, mollitia quos nulla sapiente, unde velit! Illo quidem magnam amet quas harum qui! Suscipit nam voluptas porro necessitatibus voluptatum!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, deleniti, id earum repellat maxime adipisci omnis nisi, praesentium ex porro atque! Praesentium explicabo placeat laudantium consequatur accusamus aspernatur aperiam excepturi!</p>
+								<h3>Notable stars and objects</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem possimus quos voluptas ipsa vel porro distinctio voluptatem doloremque dolores repellat sint sed hic nisi reprehenderit magnam, non cumque, aliquid harum!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae possimus non iusto magni sapiente officiis laudantium earum perferendis esse expedita dolor, vero rerum beatae maxime necessitatibus temporibus dolores, eveniet deserunt!</p>
+								<p>Zeta Aquarii is at the center of the Y-shaped configuration that forms Aquarius’ water jar. The other stars in the asterism forming the jar are Gamma, Pi and Eta Aquarii. The stream of water consists of more than 20 stars, ending with Fomalhaut.</p>
+								<h3>Locating Sagittarius</h3>
+								<p>The constellation can be seen in the spring in the Southern Hemisphere and the fall in the Northern Hemisphere.</p>
+								<ul>
+									<li>Right Ascension:  22.71 hours</li>
+									<li>Declination:  -10.19 degrees</li>
+									<li>Visible: Between 65 degrees and -90 degrees</li>
+									<li>Best viewed: During October at 9 p.m.</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div id="l_info" class="hidden">
+						<div class="planet row">
+							<div class="col-lg-4 col-md-4 col-sm-8 col-xs-8 svgs">
+								<object id="svgCap" class="img-responsive" onload="onCapContentLoaded()" type="image/svg+xml" data="../svg/zodiac/capricorn.svg">Your browser does not support SVGs</object>
+							</div>
+							<div class="planet_info col-lg-8 col-md-12 col-sm-12 col-xs-12"> 
+								<h2>Capricorn</h2>
+								<h3>Mythology</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum illum quod, mollitia quos nulla sapiente, unde velit! Illo quidem magnam amet quas harum qui! Suscipit nam voluptas porro necessitatibus voluptatum!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, deleniti, id earum repellat maxime adipisci omnis nisi, praesentium ex porro atque! Praesentium explicabo placeat laudantium consequatur accusamus aspernatur aperiam excepturi!</p>
+								<h3>Notable stars and objects</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem possimus quos voluptas ipsa vel porro distinctio voluptatem doloremque dolores repellat sint sed hic nisi reprehenderit magnam, non cumque, aliquid harum!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae possimus non iusto magni sapiente officiis laudantium earum perferendis esse expedita dolor, vero rerum beatae maxime necessitatibus temporibus dolores, eveniet deserunt!</p>
+								<p>Zeta Aquarii is at the center of the Y-shaped configuration that forms Aquarius’ water jar. The other stars in the asterism forming the jar are Gamma, Pi and Eta Aquarii. The stream of water consists of more than 20 stars, ending with Fomalhaut.</p>
+								<h3>Locating Capricorn</h3>
+								<p>The constellation can be seen in the spring in the Southern Hemisphere and the fall in the Northern Hemisphere.</p>
+								<ul>
+									<li>Right Ascension:  22.71 hours</li>
+									<li>Declination:  -10.19 degrees</li>
+									<li>Visible: Between 65 degrees and -90 degrees</li>
+									<li>Best viewed: During October at 9 p.m.</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
+

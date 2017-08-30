@@ -1,0 +1,269 @@
+t<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Rocket | Planets</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="../svg/favicon.png" type="image/x-icon" />
+	<link rel="stylesheet" href="../bootstrap-3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet">
+	<link rel="stylesheet" href="../css/flexy.css">
+	<link rel="stylesheet" href="../css/main.css">
+	<script src="../js/jquery.min.js"></script>
+	<script src="../js/TimelineMax.min.js"></script>
+	<script src="../js/TweenMax.min.js"></script>
+	<script src="../bootstrap-3.3.7/js/bootstrap.min.js"></script>
+	<script src="../js/main.js"></script>
+	<script src="../js/planet.js"></script>
+</head>
+<body>
+	<div class="container"> 
+		<nav class="navbar navbar-default navbar-fixed-top">
+		   	<div class="container">
+		    	<div class="navbar-header">
+		       		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+		         	<span class="sr-only">Toggle navigation</span>
+		         	<span class="icon-bar"></span>
+		         	<span class="icon-bar"></span>
+		         	<span class="icon-bar"></span>
+		       		</button>
+		       		<div class="navbar-brand header_logo">
+		       			<a class="" href="../index.html"><img src="../svg/Logo.svg" alt=""></a>
+		       		</div>
+		     	</div>
+		     	<div id="navbar" class="navbar-collapse collapse">
+		     		<ul class="nav navbar-nav navbar-right">
+		                <li><a href="../index.html">Home <i class="fa fa-home" aria-hidden="true"></i></a></li>
+		                <li class="active"><a href="planets.html">Planets <i class="fa fa-globe" aria-hidden="true"></i></a></li>
+		                <li><a href="constellation.html">Constellation <i class="fa fa-star" aria-hidden="true"></i></a></li>
+		                <li><a href="sun.html">Sun <i class="fa fa-sun-o" aria-hidden="true"></i></a></li>
+		                <li><a href="moon.html">Moon <i class="fa fa-moon-o" aria-hidden="true"></i></a></li>
+		            </ul>
+		    	</div><!--/.nav-collapse -->
+		   </div>
+		</nav>
+		<div class="content">
+			<div class="row outline effect5">
+				<div class="">
+					<div class="dropdown">
+						<button class="btn btn-secondary dropdown-toggle btn-block" type="button" id="about-us" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							<h1>Pick a Planet <span class="caret"></span></h1>
+						</button>
+						<ul class="dropdown-menu" aria-labelledby="about-us">
+							<li><a href="#" id="mercury_dd">Mercury</a></li>
+							<li><a href="#" id="venus_dd">Venus</a></li>
+							<li><a href="#" id="earth_dd">Earth</a></li>
+							<li><a href="#" id="mars_dd">Mars</a></li>
+							<li><a href="#" id="jupiter_dd">Jupiter</a></li>
+							<li><a href="#" id="saturn_dd">Saturn</a></li>
+							<li><a href="#" id="uranus_dd">Uranus</a></li>
+							<li><a href="#" id="neptune_dd">Neptune</a></li>
+							<li><a href="#" id="pluto_dd">Pluto</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-0 col-xs-0 svgs">
+					<object id="svgPlanets" class="img-responsive" onload="onPlanetsLoaded()" type="image/svg+xml" data="../svg/planet-selector2.svg">Your browser does not support SVGs</object>
+				</div>
+			</div>
+
+			<div  class=" row outline effect5">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 svgs" id="planets" >
+					<div id="mars_info" class="hidden ">
+						<div class="row">
+							<div class="col-lg-9 col-md-9 col-sm-12 planet_info">
+								<h1>Mars</h1>
+								<h3>Mars Means</h3>
+								<p>Mars was the Roman god of war and agriculture. It may not seem like these two things go together, but they do. Mars protected those who fought for their communities, and stayed home to raise crops for food. In Greek, Mars was known as Ares.</p>
+								<h3>How much would you weigh on Jupiter?</h3>
+								<p>If you weighed 70 pounds (32 kg) on the Earth, you would weigh about 27 pounds (12 kg) on Mars. </p>
+								<h3>The Planet</h3>
+								<p>Mars excites scientists because its mild temperament is more like the Earth's than any of the other planets. Evidence suggests that Mars once had rivers, streams, lakes, and even an ocean. As Mars' atmosphere slowly depleted into outer space, the surface water began to permanently evaporate. Today the only water on Mars in either frozen in the polar caps or underground.</p>
+								<p>You may sometimes hear Mars referred to as the "Red Planet." This is because the surface of Mars is red. If you stood on the surface of Mars, you would see red dirt and rocks everywhere.</p>
+								<h3>Exploration</h3>
+								<p>At first, the only way modern explorers could study Mars was with satellites that would fly close to the surface of Mars and take pictures as it did so. The satellites would then send these pictures back to Earth.</p>
+								<h3>Did you know?</h3>
+								<p>Mars has higher mountains, and deeper canyons than any other planet. The largest canyon on Mars would stretch from New York City to Los Angeles on the Earth. That makes the Grand Canyon look tiny. It also has the Solar System's biggest volcano, Olympus Mons, which is nearly 3 times larger than Mount Everest.</p>
+							</div>
+							<div class="col-lg-3 col-md-3 col-md-offset-0 col-sm-6 col-sm-offset-3 col-xs-6 col-xs-offset-3">
+								<img src="../svg/planets/mars.svg" alt="" class="img-responsive">
+							</div>
+						</div>
+					</div>
+					<div id="earth_info">
+						<div class="row">
+							<div class="col-lg-9 col-md-9 col-sm-12 planet_info">
+								<h1>Earth</h1>
+								<h3>Earth Means</h3>
+								<p>In astronomy mythology, her Greek name was Gaea. Earth was the mother of the mountains, valleys, streams and all other land formations. She was married to Uranus.</p>
+								<h3>How big is the Earth</h3>
+								<p>The Earth is the biggest of all the terrestrial planets. A terrestrial planet is a dense planet found in the inner Solar System. The diameter of Earth is 7,926 miles. The circumference measured around the equator is 24,901 miles. There are currently almost 7 billion people living on the Earth. About 30% of the Earth's surface is covered with land, while about 70% is covered by oceans.</p>
+								<h3>The Planet</h3>
+								<p>Our planet is  an oasis of life in an otherwise desolate universe.  The Earth's temperature, weather, atmosphere and many other factors are just right to keep us alive.</p>
+								<h3>Did you know?</h3>
+								<p>Scientists use the Earth to study all the other planets. Since no human has ever visited another planet, we have to use what we know about the Earth, and try to guess what the other planets must be like. This is called Comparative Planetology.</p>
+							</div>
+							<div class="col-lg-3 col-md-3 col-md-offset-0 col-sm-6 col-sm-offset-3 col-xs-6 col-xs-offset-3">
+								<img src="../svg/planets/earth.svg" alt="" class="img-responsive">
+							</div>
+						</div>
+					</div>
+					<div id="venus_info" class="hidden">
+						<div class="row">
+							<div class="col-lg-9 col-md-9 col-sm-12 planet_info">
+								<h1>Venus</h1>
+								<h3>Venus Means</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid quas ut, dolorum perferendis molestias labore voluptas ipsa. Sint illo, quo adipisci voluptas temporibus minus, amet, vitae recusandae perspiciatis accusantium doloremque.</p>
+								<h3>How much would you weigh on Venus?</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis similique ad amet sequi sunt dolorem nulla, pariatur libero nesciunt, alias saepe eligendi doloribus illum tenetur excepturi quaerat qui rerum. Non.</p>
+								<h3>The Planet</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio at iusto veniam est, eius! Ab qui doloremque nulla, soluta recusandae assumenda tempora accusantium, explicabo iure consectetur delectus animi, error labore.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, quam necessitatibus. Consequuntur aperiam sint iusto ipsum quaerat, voluptate. Modi corporis, voluptas soluta distinctio eius assumenda doloremque quam in non id.</p>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus tempora repellendus iusto, rem, eaque, quos esse unde officia maxime aperiam necessitatibus illum. Perferendis quaerat, accusamus non veniam! Possimus, magni, soluta!</p>
+								<h3>Exploration</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui sequi consequuntur praesentium error, reiciendis nobis. Adipisci, perspiciatis fuga ipsa unde cupiditate voluptas ea, dicta deserunt vel temporibus quas atque beatae?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur repellendus itaque, possimus minus numquam quam quisquam vel nihil consequuntur iste saepe, culpa ipsa quia commodi sapiente explicabo corporis eum amet!</p>
+								<h3>Did you know?</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem deserunt distinctio officia. Nostrum recusandae quisquam, dolores. Excepturi, fugit maiores pariatur cum doloribus quod laboriosam aliquid, odio magni in harum numquam.</p>
+							</div>
+							<div class="col-lg-3 col-md-3 col-md-offset-0 col-sm-6 col-sm-offset-3 col-xs-6 col-xs-offset-3">
+								<img src="../svg/planets/venus.svg" alt="" class="img-responsive">
+							</div>
+						</div>
+					</div>
+					<div id="jupiter_info" class="hidden">
+						<div class="row">
+							<div class="col-lg-9 col-md-9 col-sm-12 planet_info">
+								<h1>Jupiter</h1>
+								<h3>Jupiter Means</h3>
+								<p>Jupiter, known as Zeus in Greek mythology, over threw his father Saturn to become king of the gods. He then split the universe with his brothers Neptune and Pluto</p>
+								<h3>How much would you weigh on Jupiter?</h3>
+								<p>If you traveled to Jupiter on vacation, you would be very heavy. If you weigh 70 pounds (32 kg) on Earth, on Jupiter you would weigh 185 pounds (84 kg). This is because Jupiter is such a large planet and so has more gravity.</p>
+								<h3>The Planet</h3>
+								<p>Jupiter is by far the largest planet in our Solar System. The Earth could fit inside Jupiter more than 1000 times.
+								Jupiter is a very stormy planet. There are storms found throughout the atmosphere, and most of the storms seem to never end. The many different cloud formations and storms in the atmosphere also make Jupiter a very colorful planet.</p>
+								<p>Jupiter is considered a gas giant because it does not have a solid surface. Under its atmosphere is a large liquid ocean of hydrogen and water. What lies in between that ocean and the atmosphere? Actually, there is no in between. The atmosphere slowly gets thicker and thicker until it becomes part of the ocean. In other words, Jupiter's ocean has no surface on which you could float a boat. The sky becomes the ocean.</p>
+								<h3>Rings?</h3>
+								<p>Did you know Jupiter has rings? They are faint and are only able to be viewed when Jupiter passes in front of the Sun. This is because the light from the Sun lights them up for us to see here on Earth. There are three rings in all. They are named Gossamer, Main and Halo</p>
+								<h3>Did you know?</h3>
+								<p>Mercury's orbit is not a perfect circle like most of the other planets. It's actually egg-shaped. At times, Mercury's orbit brings it closer to the Sun than other times, while all the other planets that have circular orbits are always the same distance from the Sun.</p>
+							</div>
+							<div class="col-lg-3 col-md-3 col-md-offset-0 col-sm-6 col-sm-offset-3 col-xs-6 col-xs-offset-3">
+								<img src="../svg/planets/jupiter.svg" alt="" class="img-responsive">
+							</div>
+						</div>
+					</div>
+					<div id="pluto_info" class="hidden">
+						<div class="row">
+							<div class="col-lg-9 col-md-9 col-sm-12 planet_info">
+								<h1>Pluto</h1>
+								<h3>Pluto Means</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid quas ut, dolorum perferendis molestias labore voluptas ipsa. Sint illo, quo adipisci voluptas temporibus minus, amet, vitae recusandae perspiciatis accusantium doloremque.</p>
+								<h3>How much would you weigh on Pluto?</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis similique ad amet sequi sunt dolorem nulla, pariatur libero nesciunt, alias saepe eligendi doloribus illum tenetur excepturi quaerat qui rerum. Non.</p>
+								<h3>The Planet</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio at iusto veniam est, eius! Ab qui doloremque nulla, soluta recusandae assumenda tempora accusantium, explicabo iure consectetur delectus animi, error labore.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, quam necessitatibus. Consequuntur aperiam sint iusto ipsum quaerat, voluptate. Modi corporis, voluptas soluta distinctio eius assumenda doloremque quam in non id.</p>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus tempora repellendus iusto, rem, eaque, quos esse unde officia maxime aperiam necessitatibus illum. Perferendis quaerat, accusamus non veniam! Possimus, magni, soluta!</p>
+								<h3>Exploration</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui sequi consequuntur praesentium error, reiciendis nobis. Adipisci, perspiciatis fuga ipsa unde cupiditate voluptas ea, dicta deserunt vel temporibus quas atque beatae?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur repellendus itaque, possimus minus numquam quam quisquam vel nihil consequuntur iste saepe, culpa ipsa quia commodi sapiente explicabo corporis eum amet!</p>
+								<h3>Did you know?</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem deserunt distinctio officia. Nostrum recusandae quisquam, dolores. Excepturi, fugit maiores pariatur cum doloribus quod laboriosam aliquid, odio magni in harum numquam.</p>
+							</div>
+							<div class="col-lg-3 col-md-3 col-md-offset-0 col-sm-6 col-sm-offset-3 col-xs-6 col-xs-offset-3">
+								<img src="../svg/planets/pluto.svg" alt="" class="img-responsive">
+							</div>
+						</div>
+					</div>
+					<div id="neptune_info" class="hidden">
+						<div class="row">
+							<div class="col-lg-9 col-md-9 col-sm-12 planet_info">
+								<h1>Neptune</h1>
+								<h3>Neptune Means</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid quas ut, dolorum perferendis molestias labore voluptas ipsa. Sint illo, quo adipisci voluptas temporibus minus, amet, vitae recusandae perspiciatis accusantium doloremque.</p>
+								<h3>How much would you weigh on Neptune?</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis similique ad amet sequi sunt dolorem nulla, pariatur libero nesciunt, alias saepe eligendi doloribus illum tenetur excepturi quaerat qui rerum. Non.</p>
+								<h3>The Planet</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio at iusto veniam est, eius! Ab qui doloremque nulla, soluta recusandae assumenda tempora accusantium, explicabo iure consectetur delectus animi, error labore.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, quam necessitatibus. Consequuntur aperiam sint iusto ipsum quaerat, voluptate. Modi corporis, voluptas soluta distinctio eius assumenda doloremque quam in non id.</p>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus tempora repellendus iusto, rem, eaque, quos esse unde officia maxime aperiam necessitatibus illum. Perferendis quaerat, accusamus non veniam! Possimus, magni, soluta!</p>
+								<h3>Exploration</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui sequi consequuntur praesentium error, reiciendis nobis. Adipisci, perspiciatis fuga ipsa unde cupiditate voluptas ea, dicta deserunt vel temporibus quas atque beatae?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur repellendus itaque, possimus minus numquam quam quisquam vel nihil consequuntur iste saepe, culpa ipsa quia commodi sapiente explicabo corporis eum amet!</p>
+								<h3>Did you know?</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem deserunt distinctio officia. Nostrum recusandae quisquam, dolores. Excepturi, fugit maiores pariatur cum doloribus quod laboriosam aliquid, odio magni in harum numquam.</p>
+							</div>
+							<div class="col-lg-3 col-md-3 col-md-offset-0 col-sm-6 col-sm-offset-3 col-xs-6 col-xs-offset-3">
+								<img src="../svg/planets/neptune.svg" alt="" class="img-responsive">
+							</div>
+						</div>
+					</div>
+					<div id="uranus_info" class="hidden">
+						<div class="row">
+							<div class="col-lg-9 col-md-9 col-sm-12 planet_info">
+								<h1>Uranus</h1>
+								<h3>Uranus Means</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid quas ut, dolorum perferendis molestias labore voluptas ipsa. Sint illo, quo adipisci voluptas temporibus minus, amet, vitae recusandae perspiciatis accusantium doloremque.</p>
+								<h3>How much would you weigh on Uranus?</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis similique ad amet sequi sunt dolorem nulla, pariatur libero nesciunt, alias saepe eligendi doloribus illum tenetur excepturi quaerat qui rerum. Non.</p>
+								<h3>The Planet</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio at iusto veniam est, eius! Ab qui doloremque nulla, soluta recusandae assumenda tempora accusantium, explicabo iure consectetur delectus animi, error labore.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, quam necessitatibus. Consequuntur aperiam sint iusto ipsum quaerat, voluptate. Modi corporis, voluptas soluta distinctio eius assumenda doloremque quam in non id.</p>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus tempora repellendus iusto, rem, eaque, quos esse unde officia maxime aperiam necessitatibus illum. Perferendis quaerat, accusamus non veniam! Possimus, magni, soluta!</p>
+								<h3>Exploration</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui sequi consequuntur praesentium error, reiciendis nobis. Adipisci, perspiciatis fuga ipsa unde cupiditate voluptas ea, dicta deserunt vel temporibus quas atque beatae?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur repellendus itaque, possimus minus numquam quam quisquam vel nihil consequuntur iste saepe, culpa ipsa quia commodi sapiente explicabo corporis eum amet!</p>
+								<h3>Did you know?</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem deserunt distinctio officia. Nostrum recusandae quisquam, dolores. Excepturi, fugit maiores pariatur cum doloribus quod laboriosam aliquid, odio magni in harum numquam.</p>
+							</div>
+							<div class="col-lg-3 col-md-3 col-md-offset-0 col-sm-6 col-sm-offset-3 col-xs-6 col-xs-offset-3">
+								<img src="../svg/planets/uranus.svg" alt="" class="img-responsive">
+							</div>
+						</div>
+					</div>
+					<div id="mercury_info" class="hidden">
+						<div class="row">
+							<div class="col-lg-9 col-md-9 col-sm-12 planet_info">
+								<h1>Mercury</h1>
+								<h3>Mercury Means</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid quas ut, dolorum perferendis molestias labore voluptas ipsa. Sint illo, quo adipisci voluptas temporibus minus, amet, vitae recusandae perspiciatis accusantium doloremque.</p>
+								<h3>How much would you weigh on Mercury?</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis similique ad amet sequi sunt dolorem nulla, pariatur libero nesciunt, alias saepe eligendi doloribus illum tenetur excepturi quaerat qui rerum. Non.</p>
+								<h3>The Planet</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio at iusto veniam est, eius! Ab qui doloremque nulla, soluta recusandae assumenda tempora accusantium, explicabo iure consectetur delectus animi, error labore.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, quam necessitatibus. Consequuntur aperiam sint iusto ipsum quaerat, voluptate. Modi corporis, voluptas soluta distinctio eius assumenda doloremque quam in non id.</p>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus tempora repellendus iusto, rem, eaque, quos esse unde officia maxime aperiam necessitatibus illum. Perferendis quaerat, accusamus non veniam! Possimus, magni, soluta!</p>
+								<h3>Exploration</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui sequi consequuntur praesentium error, reiciendis nobis. Adipisci, perspiciatis fuga ipsa unde cupiditate voluptas ea, dicta deserunt vel temporibus quas atque beatae?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur repellendus itaque, possimus minus numquam quam quisquam vel nihil consequuntur iste saepe, culpa ipsa quia commodi sapiente explicabo corporis eum amet!</p>
+								<h3>Did you know?</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem deserunt distinctio officia. Nostrum recusandae quisquam, dolores. Excepturi, fugit maiores pariatur cum doloribus quod laboriosam aliquid, odio magni in harum numquam.</p>
+							</div>
+							<div class="col-lg-3 col-md-3 col-md-offset-0 col-sm-6 col-sm-offset-3 col-xs-6 col-xs-offset-3">
+								<img src="../svg/planets/mercury.svg" alt="" class="img-responsive">
+							</div>
+						</div>
+					</div>
+					<div id="saturn_info" class="hidden">
+						<div class="row">
+							<div class="col-lg-9 col-md-9 col-sm-12 planet_info">
+								<h1>Saturn</h1>
+								<h3>Saturn Means</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid quas ut, dolorum perferendis molestias labore voluptas ipsa. Sint illo, quo adipisci voluptas temporibus minus, amet, vitae recusandae perspiciatis accusantium doloremque.</p>
+								<h3>How much would you weigh on Saturn?</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis similique ad amet sequi sunt dolorem nulla, pariatur libero nesciunt, alias saepe eligendi doloribus illum tenetur excepturi quaerat qui rerum. Non.</p>
+								<h3>The Planet</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio at iusto veniam est, eius! Ab qui doloremque nulla, soluta recusandae assumenda tempora accusantium, explicabo iure consectetur delectus animi, error labore.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, quam necessitatibus. Consequuntur aperiam sint iusto ipsum quaerat, voluptate. Modi corporis, voluptas soluta distinctio eius assumenda doloremque quam in non id.</p>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus tempora repellendus iusto, rem, eaque, quos esse unde officia maxime aperiam necessitatibus illum. Perferendis quaerat, accusamus non veniam! Possimus, magni, soluta!</p>
+								<h3>Exploration</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui sequi consequuntur praesentium error, reiciendis nobis. Adipisci, perspiciatis fuga ipsa unde cupiditate voluptas ea, dicta deserunt vel temporibus quas atque beatae?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur repellendus itaque, possimus minus numquam quam quisquam vel nihil consequuntur iste saepe, culpa ipsa quia commodi sapiente explicabo corporis eum amet!</p>
+								<h3>Did you know?</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem deserunt distinctio officia. Nostrum recusandae quisquam, dolores. Excepturi, fugit maiores pariatur cum doloribus quod laboriosam aliquid, odio magni in harum numquam.</p>
+							</div>
+							<div class="col-lg-3 col-md-3 col-md-offset-0 col-sm-6 col-sm-offset-3 col-xs-6 col-xs-offset-3">
+								<img src="../svg/planets/saturn.svg" alt="" class="img-responsive">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
+

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Rocket | Sun</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="../svg/favicon.png" type="image/x-icon" />
+	<link rel="stylesheet" href="../bootstrap-3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet">
+	<link rel="stylesheet" href="../css/flexy.css">
+	<link rel="stylesheet" href="../css/main.css">
+	<script src="../js/jquery.min.js"></script>
+	<script src="../js/TimelineMax.min.js"></script>
+	<script src="../js/TweenMax.min.js"></script>
+	<script src="../bootstrap-3.3.7/js/bootstrap.min.js"></script>
+	<script src="../js/main.js"></script>
+	<script>
+		$(onLoaded)
+
+		function onLoaded(e) {
+			// var t1 = new TimelineMax({repeat:-1,paused:false});
+			
+			// t1.to('.svgs', 20, {
+			// 	rotation:360,
+			// 	transformOrigin:"50% 50%",
+			// 	onStart: function() {
+			// 		t2.play();
+			// 	}
+			// });
+
+			var t2 = new TimelineMax({repeat:-1,paused:false});
+
+			t2.to('.sun-svg', 20, {
+				rotation:360,
+				transformOrigin:"50% 50%",
+			});
+		}	
+	</script>
+</head>
+<body>
+	<div class="container"> 
+		<nav class="navbar navbar-default navbar-fixed-top">
+		   	<div class="container">
+		    	<div class="navbar-header">
+		       		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+		         	<span class="sr-only">Toggle navigation</span>
+		         	<span class="icon-bar"></span>
+		         	<span class="icon-bar"></span>
+		         	<span class="icon-bar"></span>
+		       		</button>
+		       		<div class="navbar-brand header_logo">
+		       			<a class="" href="../index.html"><img src="../svg/Logo.svg" alt=""></a>
+		       		</div>
+		     	</div>
+		     	<div id="navbar" class="navbar-collapse collapse">
+		     		<ul class="nav navbar-nav navbar-right">
+		                <li><a href="../index.html">Home <i class="fa fa-home" aria-hidden="true"></i></a></li>
+		                <li><a href="planets.html">Planets <i class="fa fa-globe" aria-hidden="true"></i></a></li>
+		                <li><a href="constellation.html">Constellation <i class="fa fa-star" aria-hidden="true"></i></a></li>
+		                <li class="active"><a href="sun.html">Sun <i class="fa fa-sun-o" aria-hidden="true"></i></a></li>
+		                <li><a href="moon.html">Moon <i class="fa fa-moon-o" aria-hidden="true"></i></a></li>
+		            </ul>
+		    	</div><!--/.nav-collapse -->
+		   </div>
+		</nav>
+		<div class="content">
+			<div class="row sun outline effect5">
+				<div class="col-lg-4 col-md-4 col-sm-8 col-xs-8 svgs">
+					<img src="../svg/planets/sun.svg" alt="" class="img-responsive sun-svg">
+				</div>
+				<div class="planet_info col-lg-8 col-md-12 col-sm-12 col-xs-12"> 
+					<h2>The Sun</h2>
+					<h3>The Sun's Name Means</h3>
+					<p>The Romans called the sun Sol, which in English means sun. In ancient Greece, the sun was called Helios.</p>
+					<h3>Information</h3>
+					<p>Our Sun is not unique in the universe. It is a common middle-sized yellow star which scientists have named Sol, after the ancient Roman name. This is why our system of planets is called the Solar System. There are trillions of other stars in the universe just like it. Many of these stars have their own systems of planets, moons, asteroids, and comets.</p>
+					<p>The Sun was born in a vast cloud of gas and dust around 5 billion years ago. Indeed, these vast nebulae are the birth places of all stars. Over a period of many millions of years, this gas and dust began to fall into a common center under the force of its own gravity.</p>
+					<p>At the center, an ever growing body of mass was forming. As the matter fell inward, it generated a tremendous amount of heat and pressure. As it grew, the baby Sun became hotter and hotter. Eventually, when it reached a temperature of around 1 million degrees, its core ignited, causing it to begin nuclear fusion</p>
+					<p>When this happened, the Sun began producing its own light, heat, and energy.</p>
+					<h3>What is Thermonuclear Fusion?</h3>
+					<p>Thermonuclear fusion is the process in which a star produce its light, heat, and energy. This happens at the core of the star. The core is superheated to millions of degrees. This heat travels towards the surface and radiates out into the universe. Through this thermonuclear process, stars "burn" a fuel known as hydrogen. The result is that they create another type of fuel known as helium. However, stars do not burn in the same way that a fire does, because stars are not on fire. </p>
+					<h3>Solare Flares</h3>
+					<p>During periods of high solar activity, the Sun commonly releases massive amounts of gas and plasma into its atmosphere. These ejections are known as solar flares. Some solar flares can be truly massive, and contain impressive power. On occasion, these more powerful flares can even cause satellites orbiting the Earth to malfunction. They can also interact with Earth's magnetic field to create impressive and beautiful light shows known as the Northern and Southern lights. In the northern hemisphere, these lights are commonly known as the Aurora Borealis.</p>
+					<h3>Did you know?</h3>
+					<p>Light from the Sun can reach the Earth in only 8 minutes! This is called the speed of light. The Sun is nearly 93 million miles (approx 145 million km) from Earth.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
+
