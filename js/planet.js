@@ -6,8 +6,9 @@ var svgContent = svgContainer.contentDocument;
 // … now do stuff to svg DOM …..
 // var click_planet = svgContent.querySelector("#click");
 //planets
-var mars = svgContent.querySelector("#mars");
+
 var earth = svgContent.querySelector("#earth");
+var mars = svgContent.querySelector("#mars");
 var mercury = svgContent.querySelector("#mercury");
 var venus = svgContent.querySelector("#venus");
 var jupiter = svgContent.querySelector("#jupiter");

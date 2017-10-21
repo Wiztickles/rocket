@@ -73,7 +73,7 @@ function onZodiacLoaded() {
 	$(b).click(
 		function(){
 			show('b_info')
-			TweenMax.to($(a_tag), 0.1, {opacity: "0"})
+			TweenMax.to($(b_tag), 0.1, {opacity: "0"})
 		}
 	);
 

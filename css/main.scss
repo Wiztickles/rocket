@@ -190,9 +190,10 @@ h1 {
 }
 
 .effect5 {
-	-webkit-box-shadow: 0px 0px 150px -26px rgba(255,255,255,1);
-	-moz-box-shadow: 0px 0px 150px -26px rgba(255,255,255,1);
-	box-shadow: 0px 0px 150px -26px rgba(255,255,255,1);
+	//removed due to mobile issuse
+	// -webkit-box-shadow: 0px 0px 150px -26px rgba(255,255,255,1);
+	// -moz-box-shadow: 0px 0px 150px -26px rgba(255,255,255,1);
+	// box-shadow: 0px 0px 150px -26px rgba(255,255,255,1);
 }
 
 #planets {
